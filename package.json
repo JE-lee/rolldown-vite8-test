@@ -1,0 +1,25 @@
+{
+  "name": "vite-rolldown-bundle",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "dev:bundle": "vite --host --experimentalBundle",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.4.0",
+    "@vue/babel-preset-jsx": "^1.4.0",
+    "element-ui": "^2.15.14",
+    "lodash": "^4.17.21",
+    "vue": "^2.7.16"
+  },
+  "devDependencies": {
+    "@artoo-detoo/plugin-vue2-jsx": "^1.1.1",
+    "@originjs/vite-plugin-require-context": "^1.0.9",
+    "@vitejs/plugin-vue2": "^2.3.3",
+    "vite": "8.0.0-beta.1"
+  }
+}
