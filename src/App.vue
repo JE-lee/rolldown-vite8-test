@@ -1,16 +1,8 @@
 <script>
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
-import JsxExample from './components/JsxExample.jsx'
-import RequireContextDemo from './components/RequireContextDemoJsx.jsx'
 
 export default defineComponent({
   name: 'App',
-  components: {
-    HelloWorld,
-    JsxExample,
-    RequireContextDemo
-  }
 })
 </script>
 
@@ -40,12 +32,6 @@ export default defineComponent({
         <el-input placeholder="请输入内容" style="width: 300px;"></el-input>
       </div>
     </el-card>
-    
-    <!-- JSX 组件示例 -->
-    <JsxExample title="Vue 2.7 JSX 功能展示" />
-    
-    <!-- require.context 示例 -->
-    <RequireContextDemo />
   </div>
 </template>
 
